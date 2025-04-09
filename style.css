@@ -6,7 +6,7 @@ body {
 }
 
 #tentacles {
-    width: 50px;
+    width: 60px;
 }
 
 .header {
@@ -14,13 +14,36 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: space-between;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
 
+.logo{
+    display: flex;
+}
+
+.link-games a{
+    text-decoration: none;
+    color: black;
+}
+
+.link-games a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
 .stats-container {
     display: flex;
+    
+}
+
+.stats-container > *:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
